@@ -5,11 +5,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get root_path
     assert_response :success
-<<<<<<< HEAD
-    assert_select "title", "#{@base_title}"
-=======
     assert_select "title", "Ruby on Rails Tutorial Sample App"
->>>>>>> filling-in-layout
   end
 
   test "should get help" do
